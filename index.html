@@ -25,8 +25,8 @@ a{color:inherit;text-decoration:none}
 @keyframes pisca{50%{opacity:.85}}
 .grao{position:absolute;inset:-50%;pointer-events:none;opacity:.25;mix-blend-mode:overlay;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");animation:grao .5s steps(4) infinite}
 @keyframes grao{0%{transform:translate(0,0)}25%{transform:translate(-3%,2%)}50%{transform:translate(2%,-3%)}75%{transform:translate(-2%,-1%)}}
-.centro{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:min(78vw,480px);text-align:center}
-.logo{display:block;width:100%;aspect-ratio:1064/662;background:#fff;filter:drop-shadow(0 6px 18px rgba(40,14,0,.6));-webkit-mask:url(img/logo-branco-vertical.png) center/contain no-repeat;mask:url(img/logo-branco-vertical.png) center/contain no-repeat;animation:acende 1.6s ease-out both}
+.centro{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:min(88vw,540px);text-align:center}
+.logo{display:block;width:100%;aspect-ratio:1180/662;background:#fff;filter:drop-shadow(0 6px 18px rgba(40,14,0,.6));-webkit-mask:url(img/logo-centro.png) center/contain no-repeat;mask:url(img/logo-centro.png) center/contain no-repeat;animation:acende 1.6s ease-out both}
 @keyframes acende{0%{opacity:0}30%{opacity:.9}36%{opacity:.2}44%{opacity:1}52%{opacity:.5}60%,100%{opacity:1}}
 .assin{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:12px;white-space:nowrap;font-size:10.5px;font-weight:500;letter-spacing:.42em;text-transform:uppercase;animation:acende 1.6s .4s ease-out both}
 .assin:before,.assin:after{content:"";flex:0 0 26px;height:1px;background:currentColor;opacity:.8}
